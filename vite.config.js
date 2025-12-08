@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // TODO: Update this to match your GitHub repository name if deploying to GitHub Pages (e.g. '/repo-name/')
+  base: '/Sleepy-Planet-Portal/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
