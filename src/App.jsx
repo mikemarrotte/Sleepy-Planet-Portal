@@ -46,7 +46,7 @@ function App() {
             </h1>
 
             <p className="text-lg md:text-xl text-zinc-400 max-w-2xl leading-relaxed">
-              Your gateway to a universe of relaxation, creative dreaming, and mindful exploration. Connect with a community of dreamers.
+              All you have to do is remember what to imagine.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 pt-4">
