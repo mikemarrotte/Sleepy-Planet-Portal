@@ -1,29 +1,16 @@
+
 import { Button } from "@/components/ui/button"
 import { Moon, Star, Zap, Globe } from "lucide-react"
 
-import { useEffect } from "react"
 
 function App() {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = "https://cdn.unicorn.studio/v1.2.1/unicornStudio.umd.js";
-    script.async = true;
-    script.onload = () => {
-      if (window.UnicornStudio) {
-        window.UnicornStudio.init();
-      }
-    };
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
   return (
     <div className="min-h-screen bg-black text-white selection:bg-indigo-500/30">
       {/* Background Gradients */}
-      {/* Unicorn Studio Background */}
-      <div className="fixed inset-0 z-0 overflow-hidden" data-us-project="OC7ATr43Xr7KTBg2QwZZ"></div>
+      <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-900/20 rounded-full blur-[120px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[120px]" />
+      </div>
 
       <div className="relative z-10">
         {/* Navigation */}
