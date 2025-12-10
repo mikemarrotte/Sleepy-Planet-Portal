@@ -91,7 +91,7 @@ function App() {
 
         <footer className="container mx-auto px-6 py-12 border-t border-white/10 mt-20">
           <div className="flex flex-col md:flex-row justify-between items-center text-zinc-500 text-sm">
-            <p>© 2024 Sleepy Planet. All rights reserved.</p>
+            <p>© 2025 Sleepy Planet. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-white transition-colors">Privacy</a>
               <a href="#" className="hover:text-white transition-colors">Terms</a>
