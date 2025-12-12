@@ -7,9 +7,14 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white selection:bg-indigo-500/30">
       {/* Background Gradients */}
-      <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-indigo-900/20 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[120px]" />
+      {/* Background Image */}
+      <div className="fixed inset-0 z-0 pointer-events-none">
+        <div className="absolute inset-0 bg-black/50 z-10" />
+        <img
+          src="/hero-bg.png"
+          alt="Background"
+          className="w-full h-full object-cover opacity-90 grayscale"
+        />
       </div>
 
       <div className="relative z-10">
@@ -43,8 +48,8 @@ function App() {
             </div>
 
             <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-white/50">
-              Dream Deeper.<br />
-              Explore the <span className="text-indigo-400">Sleepy Planet</span>.
+              Phase Shift.<br />
+              Enter the <span className="text-indigo-400">Sleepy Planet</span>.
             </h1>
 
             <p className="text-lg md:text-xl text-zinc-400 max-w-2xl leading-relaxed">
